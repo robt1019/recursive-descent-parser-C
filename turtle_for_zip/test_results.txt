@@ -1,0 +1,167 @@
+_________________________________________________________________________
+
+initialise_program_test checks that initialise_program function
+sets current_word counter to zero and sends filename to the filename
+variable in the program struct for error reporting
+_________________________________________________________________________
+
+initialise_program_test passed
+_________________________________________________________________________
+
+set_default_start_test checks that turtle direction is set to NORTH
+and that turtle start point is set to the centre of the SDL window
+_________________________________________________________________________
+
+set_default_start_test passed
+_________________________________________________________________________
+
+initialise_variable_array_test checks that all elements in 2D var_array 
+are correctly set to zero
+_________________________________________________________________________
+
+initialise_variable_array_test passed
+_________________________________________________________________________
+
+initialise_words_array_test checks that the first element of each 
+word in the 2D words array is set to the terminal character 
+_________________________________________________________________________
+
+initialise_words_array_test passed
+_________________________________________________________________________
+
+open_file_test checks that open_file function returns NULL when trying 
+to open a non-existent file for reading and a file pointer for a valid file 
+_________________________________________________________________________
+
+open_file_test passed
+_________________________________________________________________________
+
+scan_file_test checks that line_ids are correctly assigned to words
+in a file and that all words in test file are scanned into the words array
+_________________________________________________________________________
+
+scan_file_test passed
+_________________________________________________________________________
+
+string_same_test checks that string_same function correctly identifies 
+specific words
+_________________________________________________________________________
+
+string_same_test passed
+_________________________________________________________________________
+
+word_found-test checks that word_found function correctly identifies
+specific words and moves the program counter on the correct amount
+_________________________________________________________________________
+
+word_found_test passed
+_________________________________________________________________________
+
+Var_test checks that a testing version of the Var function
+only returns true for valid vars (A-Z)
+_________________________________________________________________________
+
+Var_test passed
+_________________________________________________________________________
+
+Number_test checks that a testing version of the Number function
+only returns true for valid numbers (1 to 10000)
+_________________________________________________________________________
+
+Number_test passed
+_________________________________________________________________________
+
+Varnum_test checks that a testing version of the Varnum function
+follows the correct route for specific inputs
+I.E. that numbers are sent to the Number function
+_________________________________________________________________________
+
+Varnum_test passed
+_________________________________________________________________________
+
+assign_var_test checks that a variable 'D'
+is correctly assigned the value 20 in the var_array
+_________________________________________________________________________
+
+assign_var_test passed
+_________________________________________________________________________
+
+interpret_varnum_test checks that a variable D previously set to 20
+is correctly interpreted by interpret_varnum and the value 20 is returned
+_________________________________________________________________________
+
+interpret_varnum_test passed
+_________________________________________________________________________
+
+Set_draw_test checks that Set_draw correctly updates the turtle
+draw point in the Co_ordinates struct, including rounding floating
+correctly
+_________________________________________________________________________
+
+Set_draw_test passed
+_________________________________________________________________________
+
+Lt_test checks that the current angle in the Co_ordinates struct
+is updated correctly after Rt is called with a number of values
+_________________________________________________________________________
+
+Lt_test passed
+_________________________________________________________________________
+
+Rt_test checks that the current angle in the Co_ordinates struct
+is updated correctly after Rt is called with a number of values
+_________________________________________________________________________
+
+Rt_test passed
+_________________________________________________________________________
+
+operator_found_test checks that only operators '+' '-' '*' and '/'
+are recognised, returning 1. The values '3' and '&' are input
+as invalid tests, returning 0
+_________________________________________________________________________
+
+operator_found_test passed
+_________________________________________________________________________
+
+push_varnum_to_stack_test checks that the correct value is being
+assigned to the polish result variable in the program struct
+_________________________________________________________________________
+
+push_varnum_to_stack_test passed
+_________________________________________________________________________
+
+push_result_to_stack_test checks that the correct value is pushed to'
+the stack when the result 62.6 is assigned to stack->top->value
+_________________________________________________________________________
+
+push_result_to_stack_test passed
+_________________________________________________________________________
+
+evaluate expression test inputs a series of values and operators for
+the expression 'a operator b' and ensures that the correct result is returned
+_________________________________________________________________________
+
+evaluate_expression_test passed
+_________________________________________________________________________
+
+Initialise_Stack_test
+
+checks that Initialise_Stack function correctly sets prev pointer
+to NULL and top pointer is not NULL
+_________________________________________________________________________
+
+Initialise_Stack_test passed
+_________________________________________________________________________
+
+Push_test checks that new value is correctly assigned to top->value,
+function returns correct top->value and that prev pointer is not NULL
+_________________________________________________________________________
+
+Push_test passed
+_________________________________________________________________________
+
+Pop_test checks that top->value is properly updated and that
+function returns correct value for popped value
+_________________________________________________________________________
+
+Pop_test passed
